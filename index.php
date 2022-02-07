@@ -231,16 +231,11 @@
             <div class="footer-head">
                 <h4>retrouvez moi sur les réseaux sociaux</h4>
                 <div class="sociaux">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <a href="#"><img src="img/icon/SVG/fb.svg" alt="fb"></a>
-                    <a href="#"><img src="img/icon/SVG/in.svg" alt="in"></a>
-                    <a href="#"><img src="img/icon/SVG/insta.svg" alt="insta"></a>
-                    <a href="#"><img src="img/icon/SVG/youtube.svg" alt="youtube"></a>
-                    <a href="#"><img src="img/icon/SVG/snap.svg" alt="snap"></a>
+                    <span><a href="#"><img src="img/icon/SVG/fb.svg" alt="fb"></a></span>
+                    <span><a href="#"><img src="img/icon/SVG/in.svg" alt="in"></a></span>
+                    <span><a href="#"><img src="img/icon/SVG/insta.svg" alt="insta"></a></span>
+                    <span><a href="#"><img src="img/icon/SVG/youtube.svg" alt="youtube"></a></span>
+                    <span><a href="#"><img src="img/icon/SVG/snap.svg" alt="snap"></a></span>   
                 </div>
             </div>
                 <div class="footer-main">
