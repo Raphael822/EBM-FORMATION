@@ -1,0 +1,387 @@
+.formation {
+    width: 60%;
+    /* padding-top: 300px; */
+}
+
+.formation h2 {
+    text-transform: uppercase;
+    color: white;
+    background-color: #732626;
+    padding: 20px;
+    /* margin: 50px; */
+    font-size: 1.5rem;
+}
+
+.formation h3 {
+    color: white;
+    background-color: #210D26;
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.formations-title {
+    display: flex;
+    border: 2px solid #210D26;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.formations-title img {
+    padding-right: 10px;
+}
+
+.formations-title a {
+    text-decoration: none;
+    color: #210D26;
+}
+
+
+/* FORMATION DETAIL TARIF  */
+
+.formation-detail {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.formation-info {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    width: 80%;
+}
+
+.formation-info img {
+    width: 100%;
+    /* height: auto; */
+    height: 300px;
+}
+
+
+/* .formation-detail h3 {
+    background-color: #BB873E;
+    text-align: center;
+} */
+
+.formation-info-detail h3 {
+    background-color: #BB873E;
+    text-align: center;
+}
+
+.formation-info-detail {
+    border: solid 2px #BB873E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formation-info-detail-categories {
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.formation-info-detail-categories img {
+    width: 50px;
+    height: auto;
+    padding-right: 20px;
+}
+
+.formation-info-detail-categories-text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.formation-info-detail-categories-text h4 {
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.formation-info-button {
+    margin: 20px;
+    background-color: #BB873E;
+    border-radius: 5px;
+    text-transform: uppercase;
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+/* CONTENUE FORMATION  */
+
+.formation-contenue-title h3 {
+    background-color: white;
+    color: #210D26;
+}
+
+.formation-contenue-title-psc1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.formation-contenue-title p {
+    display: flex;
+    align-self: flex-end;
+}
+
+.formation-contenue-title {
+    border-bottom: 20px solid #BB873E;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.formation-contenue-psc1 {
+    padding: 30px;
+}
+
+.formation-contenue-psc1 h4 {
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.formation-contenue-psc1 p,
+ul {
+    padding-left: 20px;
+}
+
+.buttonFormation {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.buttonFormation-style {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #732626;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    width: 400px;
+    height: 40px;
+    margin: 40px;
+}
+
+
+/* A PROPOS  */
+
+.aPropos {
+    background-color: #210D26;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1300px;
+    width: 100%;
+}
+
+.aPropos-content {
+    /* width: 60%; */
+    width: 100%;
+    padding: 40px 0 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    justify-content: center;
+    align-items: center;
+}
+
+.aPropos-content h3 {
+    color: white;
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+.aPropos-content img {
+    width: 400px;
+    height: auto;
+    border: solid 10px white;
+    margin-left: 20px;
+}
+
+.aPropos-presentation {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.aPropos-descriptif {
+    width: 70%;
+    background-color: #fff;
+    padding: 15px;
+}
+
+.aPropos-descriptif p,
+h5 {
+    padding-top: 20px;
+}
+
+.buttonPresentation {
+    /* display: flex;
+    align-self: center; */
+    margin: 10px;
+}
+
+.buttonPresentation-style {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: #210D26;
+    text-transform: uppercase;
+    border: #210D26 solid 2px;
+    border-radius: 15px;
+    padding: 10px;
+    width: 300px;
+    height: 40px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.buttonPresentation-style:hover {
+    background-color: #210D26;
+    color: white;
+}
+
+
+/* CAROUSEL  */
+
+.carousel {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: -200px;
+}
+
+.carousel-cell {
+    margin-left: 30px;
+    width: auto;
+    height: 380px;
+}
+
+
+/*FAQ */
+
+.foireQuestions {
+    width: 100%;
+}
+
+.foireQuestions,
+h3 {
+    text-align: center;
+}
+
+details {
+    background-color: #133739;
+    color: white;
+    text-align: center;
+    /* cursor: pointer; */
+}
+
+summary {
+    cursor: pointer;
+}
+
+details summary {
+    color: white;
+    padding: 20px;
+}
+
+
+/* DES QUESTIONS  */
+
+.DesQuestions {
+    background-color: #133739;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 30px;
+}
+
+.DesQuestions h3 {
+    padding: 20px;
+}
+
+.DesQuestions-button {
+    margin-top: 30px;
+}
+
+.DesQuestions-button-style {
+    background-color: white;
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+    text-transform: uppercase;
+    width: 150px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+
+/* FORMULAIRE  */
+
+.formulaire {
+    margin-top: 60px;
+    width: 60%;
+    height: 700px;
+    background-color: #133739;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: center !important;
+    /* margin-left: 500px; */
+}
+
+.formulaire h3 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.formulaire-bloc {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.formulaire-bloc label,
+input {
+    padding: 5px;
+}
+
+.formulaire-bloc-content {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.formulaire-bloc-content input {
+    width: 500px;
+    height: 40px;
+}
+
+.formulaire-button {
+    width: 200px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
